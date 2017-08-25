@@ -67,3 +67,5 @@ The staging area contains the files that will be included in the next commit.
 What value do you think it offers?
 The ability easily identify the files that changed and the ability to revert them back to their
 original condition.
+
+
