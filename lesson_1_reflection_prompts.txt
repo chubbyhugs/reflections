@@ -1,0 +1,57 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+I was able to quickly see the differences without having to parse through the entire files line by line.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+Less time will be spent perform the mundane things like finding file differences.  More time
+can be spent on development.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+Pros of manually commit
+No need to learn version control software tools.
+
+Cons of manually doing a commit:
+that you have to copy all or part of your project and maintain the order
+diskspace usage increases greatly
+not easy to see what changes were made, this will require a diff on potentially more than one file
+workload to orgainze and maintain the order is greater.
+Others cannot see your changes unless the files/project are stored on a shared drive or 
+
+Pros of automatic commits:
+Easy to create a commit.
+Version control software does the heavy work for you.
+Easy to revert back and see changes.
+Less diskspace usage.  
+Others can see your changes.
+
+Cons
+Need to learn version control software tools..
+
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+Google Docs is used to create and edit word documents and the changes are made one file at a time.
+Source code changes tend to occur across one or more files so Git allows for this.
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log allows shows the commit history
+git diff shows the actual changes made to the specific files.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+Knowing that you can always revert back to a previous working state allows you the freedom to experiment with changes.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Creating new branches, editing text, and committing.
+
