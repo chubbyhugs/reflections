@@ -61,4 +61,9 @@ What happens when you initialize a repository ? Why do you need to do it?
 Git installs a hidden .git folder and sets up the git database structure (metadata).
 So that Git can track file changes.
 
+How is the staging area different from the working directory and the repository? 
+The staging area contains the files that will be included in the next commit.
 
+What value do you think it offers?
+The ability easily identify the files that changed and the ability to revert them back to their
+original condition.
