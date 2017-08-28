@@ -67,3 +67,35 @@ The staging area contains the files that will be included in the next commit.
 What value do you think it offers?
 The ability easily identify the files that changed and the ability to revert them back to their
 original condition.
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+When several file changes have been made you can control what goes into the commit by only adding
+what files are included for the logical change.
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+When making an experimental change to know working code.  You can create a separate branch for the changes.
+
+Branches allow context switching.
+
+
+How do the diagrams help you visualize the branch structure?
+
+You can see that the git log history is linear and that each commit in git log has a parent.
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+A new branch with 2 parents.
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Changes from each commit are merged into the same file.  For traceability.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging saves you from having to look at the code differences. It takes less time.
+
